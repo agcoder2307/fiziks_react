@@ -1,13 +1,71 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-container {
+  height: 85vh;
+  background-image: url("./assets//Physics-Background.jpg");
+  background-position: center;
+  object-fit: contain;
+}
+
+.header-shadow {
+  border-bottom: 1px solid rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.question-card {
+  width: 100%;
+
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  padding: 3rem 2rem;
+}
+
+.question-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-result {
+  position: fixed;
+  background: rgba(17, 17, 17, 0.64);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+}
+
+.modal-card {
+  max-width: 30rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 0.75rem;
+}
+
+.header-main {
+  padding: 1.5rem 4rem 0.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .header-title {
+    font-size: 1.5rem !important;
+  }
+  .header-main {
+    padding: 1rem;
+  }
 }

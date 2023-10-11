@@ -1,0 +1,65 @@
+.register {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.bg-image {
+  width: 50%;
+  order: 2;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://preview.colorlib.com/theme/bootstrap/login-form-01/images/bg_1.jpg.webp);
+}
+
+.container {
+  order: 1;
+  width: 50%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text-fields {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1080px) {
+  .register {
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-image {
+    width: 100%;
+    height: 50%;
+    order: 1;
+  }
+  .container {
+    width: 100%;
+    order: 2;
+  }
+  .content {
+    margin-top: 5rem;
+  }
+}

@@ -1,0 +1,156 @@
+[
+        {
+            "question":"What is the SI unit of force?",
+            "answer":"Newton",
+            "choices":[
+                {
+                    "var":"Kilogram"
+                    
+                },
+            
+                {
+                    
+                    "var":"Meter"
+                    
+                },
+            
+                {
+                    
+                    
+                    "var":"Second"
+                    
+                },
+            
+                {
+                    
+                    
+                    "var":"Newton"
+                }
+            ]
+
+        },
+        {
+            "question":"Which of the following represents Ohm's law?",
+            "answer":"None of the above",
+            "choices":[
+                {
+                    "var":"V = IR"
+                
+                },
+                {
+                    
+                    "var":"P = IV"
+                
+                },
+                {
+                    
+                    "var":"F = ma"
+                 
+                },
+                {
+                    
+                    "var":"None of the above"
+                }
+            ]
+
+        },
+        {
+            "question":" What does the acronym 'AC' stand for in relation to electrical current?",
+            "answer":"Alternating Current",
+            "choices":[
+                {
+                    "var":"Alternate Circuit"
+                 
+                },
+                {
+                  
+                    "var":"Alternating Charge"
+                  
+                },
+                {
+                    
+                    "var":"Alternating Current"
+                    
+                },
+                {
+                    
+                    "var":"Amperes Current"
+                }
+            ]
+
+        },
+        {
+            "question":"Which of the following colors of light has the highest frequency?",
+            "answer":"Blue",
+            "choices":[
+                {
+                    "var":"Red"
+                    
+                },
+                {
+                   
+                    "var":"Green"
+                   
+                },
+                {
+                   
+                    "var":"Blue"
+                 
+                },
+                {
+                  
+                    "var":"Yellow"
+                }
+            ]
+
+        },
+        {
+            "question":"Who is credited with the discovery of general relativity?",
+            "answer":"Albert Einstein",
+            "choices":[
+                {
+                    "var":"Isaac Newton"
+                   
+                },
+                {
+                   
+                    "var":"Albert Einstein"
+                   
+                },
+                {
+                   
+                    "var":"Nikola Tesla"
+                    
+                },
+                {
+                    
+                    "var":"Marie Curie"
+                }
+            ]
+
+        },
+        {
+            "question":"What is the formula for calculating work done?",
+            "answer":"None of the above",
+            "choices":[
+                {
+                    "var":"W = mv"
+                  
+                },
+                {
+                  
+                    "var":"W = Fd"
+                },
+                {
+                    
+                    "var":"W = ma"
+                  
+                },
+                {
+                   
+                    "var":"None of the above"
+                }
+            ]
+
+        }
+    ]
